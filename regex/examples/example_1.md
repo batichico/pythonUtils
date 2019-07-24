@@ -2,7 +2,7 @@
 
 #Regex examples
 
-#################################################################################################################################
+
 
 #1 Example
 #Convert string with list inside to list 
@@ -16,8 +16,6 @@ print(l)
 result: 
 ```['acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64']```
 
-
-#################################################################################################################################
 
 #2 Example
 #Change chars for another chars
@@ -50,7 +48,6 @@ result:
 "(hi) man <b>how are you</b>"
 ```
 
-#################################################################################################################################
 
 #3 Example
 #all elements that end with size 8 
