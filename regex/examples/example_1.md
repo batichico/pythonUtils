@@ -1,11 +1,8 @@
 ```import re```
 
-#Regex examples
 
-
-
-#1 Example
-#Convert string with list inside to list 
+# 1 Example
+## Convert string with list inside to list 
 ```
 s = 'acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64'
 
@@ -19,8 +16,8 @@ result:
 ```
 
 
-#2 Example
-#Change chars for another chars
+# 2 Example
+## Change chars for another chars
 ```
 message = "(hi) man <how are you>"
 
@@ -51,8 +48,8 @@ result:
 ```
 
 
-#3 Example
-#all elements that end with size 8 
+# 3 Example
+## All elements that end with size 8 
 ```
 re.match((\d{8}$))
 ```
