@@ -14,7 +14,9 @@ l = re.split('\[([^<^>])\]',s)
 print(l)
 ```
 result: 
-```['acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64']```
+```
+['acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64']
+```
 
 
 #2 Example
