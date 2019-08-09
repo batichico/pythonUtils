@@ -1,9 +1,10 @@
-```import re```
 
 
 # 1 Example
 ## Convert string with list inside to list 
 ```
+import re
+
 s = 'acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64'
 
 l = re.split('\[([^<^>])\]',s)
@@ -19,6 +20,8 @@ result:
 # 2 Example
 ## Change chars for another chars
 ```
+import re
+
 message = "(hi) man <how are you>"
 
 charBetweenToChange1 = '<' #here you can set all chars that you want to detect and change
@@ -44,13 +47,15 @@ print(message)
 ```
 result:
 ```
-"(hi) man <b>how are you</b>"
+(hi) man <b>how are you</b>
 ```
 
 
 # 3 Example
 ## All elements that end with size 8 
 ```
+import re
+
 re.match((\d{8}$))
 ```
 ```
