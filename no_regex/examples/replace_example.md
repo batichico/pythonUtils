@@ -1,4 +1,4 @@
-# Replace greeting text name for any name by parameter:
+## Replace greeting text name for any name by parameter:
 
 ```
 def replace_text(name):
