@@ -17,6 +17,7 @@ contain = dict_t.values()
 contain = [*contain]
 print(contain)
 ```
+Result:
 ```
 [
   {
