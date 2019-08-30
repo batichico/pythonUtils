@@ -13,8 +13,6 @@ dict_t = {
         "time": 1544123055429
     }
 }
-```
-```
 contain = dict_t.values()
 contain = [*contain]
 print(contain)
