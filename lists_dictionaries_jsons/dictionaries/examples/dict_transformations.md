@@ -1,5 +1,5 @@
 
-# Transform dict of dicts to dict of dicts without key 
+# Transform dict of dicts to list of dicts without key 
 ```
 dict_t = {
     "key1": {
